@@ -23,11 +23,6 @@ ENV/
 instance/
 .webassets-cache
 
-# Docker
-.dockerignore
-Dockerfile
-docker-compose*.yml
-
 # IDE/Editor specific
 .vscode/
 .idea/
