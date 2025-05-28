@@ -125,6 +125,12 @@ flask db migrate -m "Initial migration"
 flask db upgrade
 ```
 
-## License
+## git
 
-[Your License Information]
+echo "# python-flask-rest-api" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/javedansari81/python-flask-rest-api.git
+git push -u origin main
