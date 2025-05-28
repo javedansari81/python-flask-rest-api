@@ -1,0 +1,55 @@
+# Compiled files
+*.[oa]
+
+# Editor backup files
+*~
+.*.swp
+
+# OS specific files
+.DS_Store
+
+# Python specific
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose*.yml
+
+# IDE/Editor specific
+.vscode/
+.idea/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Migration files (uncomment if you don't want to track migrations)
+# migrations/
+
+# Application files (uncomment if these should be ignored)
+# app.py
+# *.py
+
+# Requirements and dependencies
+# requirements.txt
+
+# Personal notes
+notes-*.txt
+*.notes
+
+# Debug files
+.debugpy/

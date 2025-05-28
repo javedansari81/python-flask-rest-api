@@ -126,7 +126,7 @@ flask db upgrade
 ```
 
 ## git
-
+```bash
 echo "# python-flask-rest-api" >> README.md
 git init
 git add README.md
@@ -134,3 +134,4 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/javedansari81/python-flask-rest-api.git
 git push -u origin main
+```
