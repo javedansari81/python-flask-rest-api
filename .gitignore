@@ -20,7 +20,7 @@ venv/
 ENV/
 
 # Flask specific
-instance/
+# instance/  # Commented to allow tracking data.db for render.com deployment
 .webassets-cache
 
 # IDE/Editor specific
@@ -28,7 +28,7 @@ instance/
 .idea/
 
 # Database
-*.db
+# *.db # To use data.db file in render.com, I am commenting this line so that I can push in git, later I will remove it once I am ready to use postgres
 *.sqlite
 *.sqlite3
 

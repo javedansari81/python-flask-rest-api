@@ -7,3 +7,4 @@ flask-JWT-extended
 marshmallow
 passlib
 Flask-Migrate
+gunicorn
